@@ -14,7 +14,7 @@ const content = [
     title: 'Lizzy leaves you dizzy',
     category: 'TSBabe',
     price: 8,
-    image: '/public/thumbnails/lizzy-thumb.jpg'
+    image: '/public/thumbnails/lizzy-thumb.jpeg'
   }
 ]
 
