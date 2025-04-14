@@ -71,7 +71,7 @@ export default function Home() {
       {/* Replace the src with your own header image */}
       <div style={{ position: "relative", width: "100%", height: "300px", overflow: "hidden" }}>
         <img
-          src="/thumbnails/lizzy-thumb.jpeg"
+          src="/thumbnails/MEMBERNOVIP.png"
           alt="Digital Store Header"
           style={{
             width: "100%",
@@ -85,7 +85,7 @@ export default function Home() {
           style={{
             position: "absolute",
             inset: 0,
-            backgroundColor: "rgba(26, 26, 26, 0.7)" /* Adjust opacity here */,
+            backgroundColor: "rgba(26, 26, 26, 0.14)" /* Adjust opacity here */,
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
