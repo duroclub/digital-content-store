@@ -7,14 +7,14 @@ const content = [
     title: 'MILFY fun with @milfIris',
     category: 'MILF BIMBO',
     price: 10,
-    image: '/public/thumbnails/IRIS7-thumb.jpg'
+    image: '/thumbnails/IRIS7-thumb.jpg'
   },
   {
     id: 'product_2',
     title: 'Lizzy leaves you dizzy',
     category: 'TSBabe',
     price: 8,
-    image: '/public/thumbnails/lizzy-thumb.jpeg'
+    image: '/thumbnails/lizzy-thumb.jpeg'
   }
 ]
 
