@@ -7,14 +7,14 @@ const content = [
     title: 'MILFY fun with @milfIris',
     category: 'MILF BIMBO',
     price: 10,
-    image: '/https://pub-9023bffe6f8f4851ac67afd4d0f7dfd0.r2.dev/Copy%20of%20NRN%20Icon.png'
+    image: '/public/thumbnails/IRIS7-thumb.jpg'
   },
   {
     id: 'product_2',
     title: 'Lizzy leaves you dizzy',
     category: 'TSBabe',
     price: 8,
-    image: '/https://pub-9023bffe6f8f4851ac67afd4d0f7dfd0.r2.dev/Copy%20of%20NRN%20Icon.png'
+    image: '/public/thumbnails/lizzy-thumb.jpg'
   }
 ]
 
