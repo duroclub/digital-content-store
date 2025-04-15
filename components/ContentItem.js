@@ -91,6 +91,10 @@ export default function ContentItem({ item }) {
 
           {/* ===== BUY BUTTON ===== */}
           <button
+            onClick={() => {
+              alert(`Adding ${item.title} to cart - $${item.price}`)
+              // You can replace this with your actual cart functionality
+            }}
             style={{
               padding: "0.5rem 1.25rem",
               borderRadius: "20px" /* Apple-style pill button */,
