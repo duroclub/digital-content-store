@@ -11,14 +11,14 @@ const content = [
     id: "product_1",
     title: "Milfy fun with Iris",
     category: "MILF BIMBO",
-    price: 0.89,
+    price: 6.89,
     image: "/thumbnails/IRIS7-thumb.jpg",
   },
   {
     id: "product_2",
     title: "Lizzy left me dizzy",
     category: "TSBabe",
-    price: 0.89,
+    price: 6.89,
     image: "/thumbnails/lizzy-thumb.jpeg",
   },
   // To add more products, copy one of the objects above and change the values
