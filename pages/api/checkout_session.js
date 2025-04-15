@@ -7,6 +7,8 @@ export default async function handler(req, res) {
 
   const { id, price } = req.body
 
+  const origin = req.headers.origin || 'http://localhost:3000'
+
   const session = await stripe.checkout.sessions.create({
     line_items: [{
       price_data: {
@@ -19,8 +21,8 @@ export default async function handler(req, res) {
       quantity: 1
     }],
     mode: 'payment',
-    success_url: `http://localhost:3000/thank-you?item=${id}`,
-    cancel_url: 'http://localhost:3000/',
+    success_url: `${origin}/thank-you?item=${id}`,
+    cancel_url: `${origin}/`,
   })
 
   res.status(200).json({ sessionId: session.id })
